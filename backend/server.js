@@ -18,8 +18,8 @@ app.use(express.json())
 // app.use(cors())
 app.use(cors({
   origin: [
-    "https://admin-omega-nine-71.vercel.app/",
-    "https://final-food-delivery.vercel.app/"
+    "https://admin-omega-nine-71.vercel.app",
+    "https://final-food-delivery.vercel.app"
   ],
   credentials: true
 }));
